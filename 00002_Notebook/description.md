@@ -2,4 +2,4 @@
 
 La clase `Notebook` entiende los mismos mensajes que `Celular` y se comporta parecido pero no exactamente igual. La diferencia está en que a la hora de `utilizar` una notebook, su `bateria` disminuye en la cantidad de minutos que la utilicemos.
 
-> Definí la clase `Notebook`, que sepa entender los mensajes `__init__`, `utilizar`, `tiene_bateria_maxima` y `cargar_a_tope`.
+> Definí la clase `Notebook`, que sepa entender los mensajes `__init__`, `utilizar`, `tiene_bateria`,  `tiene_bateria_maxima` y `cargar_a_tope`.
