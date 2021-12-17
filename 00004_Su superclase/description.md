@@ -4,16 +4,20 @@ Muchas veces esa jerarquía se puede visualizar en el mundo real: por ejemplo, `
 
 ```python
 class Ave:
+
   def __init__(self, energia):
     self.energia = energia
+    
   def volar(self):
     self.energia -= 20
 
 class Condor(Ave):
+
   def dormir(self,minutos):
    self.energia += minutos * 3
 
 class Halcon(Ave):
+
   def dormir(self,minutos):
    self.energia += minutos
 
