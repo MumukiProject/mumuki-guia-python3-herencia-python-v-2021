@@ -20,4 +20,4 @@ expectations:
   inspection: DeclaresComputationWithArity2:utilizar
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Notebook
-  inspection: DeclaresMethod:tiene_bateria
+  inspection: DeclaresComputation:tiene_bateria
