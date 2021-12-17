@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:Notebook
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Notebook
+  inspection: DeclaresComputation:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Notebook
+  inspection: DeclaresComputation:utilizar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Notebook
+  inspection: DeclaresComputation:tiene_bateria_maxima
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Notebook
+  inspection: DeclaresComputation:cargar_a_tope
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Notebook
+  inspection: DeclaresComputationWithArity2:utilizar

@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:Celular
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Celular
+  inspection: DeclaresComputation:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Celular
+  inspection: DeclaresComputation:utilizar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Celular
+  inspection: DeclaresComputation:cargar_a_tope
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Celular
+  inspection: DeclaresComputationWithArity2:utilizar

@@ -1,0 +1,54 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Dispositivo` es una clase concreta."
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Dispositivo` es una clase abstracta."
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Celular` es una clase concreta."
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Celular` es una clase abstracta."
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Notebook` es una clase concreta."
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Notebook` es una clase abstracta."
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Celular` hereda de Dispositivo."
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Dispositivo` hereda de Celular."
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Notebook` hereda de Dispositivo."
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Dispositivo` hereda de Notebook."
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Las clases abstractas proveen comportamiento a sus subclases.
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Las clases abstractas se utilizan para crear instancias.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Las clases concretas proveen comportamiento a su superclase.
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Las clases concretas se utilizan para crear instancias.
+  checked: true
+name: Arte abstracto
