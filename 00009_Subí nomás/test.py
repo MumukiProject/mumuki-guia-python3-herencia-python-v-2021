@@ -25,6 +25,10 @@
     colectivo = Colectivo(300)
     self.assertFalse(colectivo.entran_personas(21))
     
-  def test_el_método_recorrer_está_definido_en_la_clase_Colectivo(self):
+  def test_la_clase_Colectivo_define_el_método_recorrer(self):
     colectivo = Colectivo(100)
     self.assertTrue("recorrer" in dir(colectivo) and callable(colectivo.recorrer))
+    
+  def test_la_clase_Colectivo_define_el_método_maximo_personas(self):
+    colectivo = Colectivo(100)
+    self.assertTrue("maximo_personas" in dir(colectivo) and callable(colectivo.maximo_personas))

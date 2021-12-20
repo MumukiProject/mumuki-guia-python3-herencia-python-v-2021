@@ -8,9 +8,6 @@ expectations:
   inspection: Inherits:MedioDeTransporte
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: DeclaresComputation:recorrer
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Colectivo
   inspection: DeclaresComputation:maximo_personas
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
