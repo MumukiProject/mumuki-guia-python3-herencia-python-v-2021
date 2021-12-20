@@ -13,12 +13,6 @@ expectations:
   binding: Dispositivo
   inspection: DeclaresComputation:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Dispositivo
-  inspection: DeclaresComputation:cargar_a_tope
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Dispositivo
-  inspection: DeclaresComputation:tiene_bateria_maxima
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Celular
   inspection: Not:DeclaresComputation:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess

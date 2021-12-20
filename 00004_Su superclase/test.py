@@ -50,3 +50,15 @@
     dispositivo = Dispositivo(1)
     self.assertTrue("cargar_a_tope" in dir(dispositivo) and callable(dispositivo.cargar_a_tope))
     
+  def test_el_método_tiene_bateria_maxima_está_definido_en_la_clase_Dispositivo(self):
+    dispositivo = Dispositivo(1)
+    self.assertTrue("tiene_bateria_maxima" in dir(dispositivo) and callable(dispositivo.tiene_bateria_maxima))
+    
+  def test_el_método_cargar_a_tope_está_definido_en_la_clase_Dispositivo(self):
+    dispositivo = Dispositivo(1)
+    self.assertTrue("cargar_a_tope" in dir(dispositivo) and callable(dispositivo.cargar_a_tope))
+    
+  def test_el_método_cargar_a_tope_no_esta_definido_en_la_clase_Celular(self):
+    celular = Celular(1)
+    self.assertFalse("cargar_a_tope" in dir(celular) and callable(celular.cargar_a_tope))
+    
