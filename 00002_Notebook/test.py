@@ -16,11 +16,11 @@
     notebook.utilizar(50)
     self.assertEqual(notebook.bateria,50)
 
-  def test_una_notebook_vuelve_a_tener_100_de_bateria_si_lo_cargo_a_tope(self):
+  def test_una_notebook_tiene_bateria_maxima_si_la_cargo_a_tope(self):
     notebook = Notebook(100)
     notebook.utilizar(200)
     notebook.cargar_a_tope()
-    self.assertEqual(notebook.bateria,100)
+    self.assertTrue(notebook.tiene_bateria_maxima)
     
   def test_una_notebook_tiene_bateria_si_tiene_más_de_20_de_bateria(self):
     notebook = Notebook(100)
