@@ -32,3 +32,7 @@
     celular = Celular(100)
     celular.utilizar(158)
     self.assertFalse(celular.esta_descargado())
+    
+  def test_la_clase_Dispositivo_define_el_método_esta_descargado(self):
+    dispositivo = Dispositivo(100)
+    self.assertTrue("esta_descargado" in dir(dispositivo) and callable(dispositivo.esta_descargado))
