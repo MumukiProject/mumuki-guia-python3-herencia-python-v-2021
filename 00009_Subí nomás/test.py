@@ -26,5 +26,5 @@
     self.assertFalse(colectivo.entran_personas(21))
     
   def test_el_método_recorrer_está_definido_en_la_clase_Colectivo(self):
-    colectivo = Colectivo()
+    colectivo = Colectivo(100)
     self.assertTrue("recorrer" in dir(colectivo) and callable(colectivo.recorrer))
