@@ -11,7 +11,7 @@
     self.assertEqual(colectivo.pasajeros,0)
   
   def test_la_clase_Colectivo_define_el_método_cargar_combustible(self):
-    colectivo = Colectivo(100)
+    colectivo = Colectivo()
     self.assertTrue("cargar_combustible" in dir(colectivo) and callable(colectivo.cargar_combustible(1)))
     
     
