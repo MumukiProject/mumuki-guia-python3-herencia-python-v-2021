@@ -24,3 +24,7 @@
   def test_en_un_auto_no_entran_más_de_20_personas(self):
     colectivo = Colectivo(300)
     self.assertFalse(colectivo.entran_personas(21))
+    
+  def test_el_método_recorrer_está_definido_en_la_clase_Colectivo(self):
+    colectivo = Colectivo()
+    self.assertTrue("recorrer" in dir(colectivo) and callable(colectivo.recorrer))
