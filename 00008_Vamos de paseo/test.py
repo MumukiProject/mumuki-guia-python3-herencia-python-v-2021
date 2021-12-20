@@ -51,6 +51,20 @@
     moto = Moto(100)
     self.assertFalse(moto.entran_personas(3))
     
-  
+  def test_la_clase_Auto_define_el_método_maximo_personas(self):
+    auto = Auto(100)
+    self.assertTrue("maximo_personas" in dir(auto) and callable(auto.maximo_personas))
+    
+  def test_la_clase_Moto_define_el_método_maximo_personas(self):
+    moto = Moto(100)
+    self.assertTrue("maximo_personas" in dir(moto) and callable(moto.maximo_personas))
+    
+  def test_la_clase_Auto_define_el_método_recorrer(self):
+    auto = Auto(100)
+    self.assertTrue("recorrer" in dir(auto) and callable(auto.recorrer))
+    
+  def test_la_clase_Moto_define_el_método_recorrer(self):
+    moto = Moto(100)
+    self.assertTrue("recorrer" in dir(moto) and callable(moto.recorrer))
     
     
