@@ -8,7 +8,4 @@ expectations:
   inspection: DeclaresComputation:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: DeclaresComputation:entran_personas
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Colectivo
   inspection: DeclaresComputationWithArity2:entran_personas

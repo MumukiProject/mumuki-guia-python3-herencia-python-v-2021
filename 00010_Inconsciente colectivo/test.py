@@ -18,3 +18,7 @@
   def test_en_un_colectivo_entran_35_personas(self):
     colectivo = Colectivo()
     self.assertTrue(colectivo.entran_personas(35))
+    
+  def test_la_clase_Colectivo_define_el_método_entran_personas(self):
+    colectivo = Colectivo(100)
+    self.assertTrue("entran_personas" in dir(colectivo) and callable(colectivo.entran_personas))
