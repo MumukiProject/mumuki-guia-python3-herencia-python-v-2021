@@ -1,7 +1,4 @@
-  def test_el_método_cargar_a_tope_está_definido_en_la_clase_Dispositivo(self):
-    dispositivo = Dispositivo(1)
-    self.assertTrue("cargar_a_tope" in dir(dispositivo) and callable(dispositivo.cargar_a_tope))
-    
+
   def test_una_notebook_gasta_60_de_bateria_si_la_uso_una_hora(self):
     notebook = Notebook(100)
     notebook.utilizar(60)
@@ -47,3 +44,9 @@
     celular.utilizar(200)
     celular.cargar_a_tope()
     self.assertEqual(celular.bateria,100)
+    
+    
+  def test_el_método_cargar_a_tope_está_definido_en_la_clase_Dispositivo(self):
+    dispositivo = Dispositivo(1)
+    self.assertTrue("cargar_a_tope" in dir(dispositivo) and callable(dispositivo.cargar_a_tope))
+    
