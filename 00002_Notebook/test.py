@@ -21,3 +21,15 @@
     notebook.utilizar(200)
     notebook.cargar_a_tope()
     self.assertEqual(notebook.bateria,100)
+    
+  def test_una_notebook_tiene_bateria_si_tiene_más_de_20_de_bateria(self):
+    notebook = Notebook(100)
+    notebook.utilizar(79)
+    notebook.cargar_a_tope()
+    self.assertTrue(notebook.tiene_bateria)  
+    
+  def test_una_notebook_no_tiene_bateria_si_tiene_20_de_bateria(self):
+    notebook = Notebook(100)
+    notebook.utilizar(80)
+    notebook.cargar_a_tope()
+    self.assertTrue(notebook.tiene_bateria)  
