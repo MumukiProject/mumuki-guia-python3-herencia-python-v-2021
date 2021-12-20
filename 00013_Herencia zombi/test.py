@@ -63,9 +63,6 @@
     superzombi = SuperZombi(44)
     self.assertTrue("sabe_correr" in dir(superzombi) and callable(superzombi.sabe_correr))
     
-  def test_la_clase_SuperZombi_tiene_definido_el_método_recibir_danio(self):
-    superzombi = SuperZombi(44)
-    self.assertTrue("recibir_danio" in dir(superzombi) and callable(superzombi.recibir_danio))
     
   def test_la_clase_SuperZombi_tiene_definido_el_método_recibir_danio(self):
     superzombi = SuperZombi(44)
