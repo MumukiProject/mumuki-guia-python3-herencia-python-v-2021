@@ -20,9 +20,6 @@ expectations:
   inspection: DeclaresComputation:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: MedioDeTransporte
-  inspection: DeclaresComputation:entran_personas
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: MedioDeTransporte
   inspection: Not:DeclaresComputation:recorrer
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Auto
