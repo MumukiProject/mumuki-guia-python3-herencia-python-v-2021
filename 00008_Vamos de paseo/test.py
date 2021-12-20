@@ -67,4 +67,8 @@
     moto = Moto(100)
     self.assertTrue("recorrer" in dir(moto) and callable(moto.recorrer))
     
+  def test_la_clase_MedioDeTransporte_define_el_método_cargar_combustible(self):
+    medioDeTransporte = MedioDeTransporte(100)
+    self.assertTrue("cargar_combustible" in dir(medioDeTransporte) and callable(medioDeTransporte.cargar_combustible))
+    
     

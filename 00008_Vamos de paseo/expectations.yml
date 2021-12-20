@@ -16,15 +16,6 @@ expectations:
   binding: Moto
   inspection: Inherits:MedioDeTransporte
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Auto
-  inspection: DeclaresComputation:recorrer
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Moto
-  inspection: DeclaresComputation:maximo_personas
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Moto
-  inspection: DeclaresComputation:recorrer
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: MedioDeTransporte
   inspection: DeclaresComputation:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
