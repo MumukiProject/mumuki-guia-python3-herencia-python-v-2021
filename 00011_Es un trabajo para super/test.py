@@ -9,6 +9,10 @@
     colectivo.cargar_pasajeros(100)
     colectivo.cargar_combustible(50)
     self.assertEqual(colectivo.pasajeros,0)
+  
+  def test_la_clase_Colectivo_define_el_método_cargar_combustible(self):
+    colectivo = Colectivo(100)
+    self.assertTrue("cargar_combustible" in dir(colectivo) and callable(colectivo.cargar_combustible))
     
     
 # Seguro hay alguna manera de definir cargar_pasajeros en el extra code, pero no pude hacerlo, habría que evaluar si se lo pedimos o lo agregamos
