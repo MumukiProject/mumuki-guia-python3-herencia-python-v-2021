@@ -62,6 +62,10 @@
     celular = Celular(1)
     self.assertTrue("utilizar" in dir(celular) and callable(celular.utilizar))
     
+  def test_el_método_utilizar_está_definido_en_la_clase_Notebook(self):
+    notebook = Notebook(1)
+    self.assertTrue("utilizar" in dir(notebook) and callable(notebook.utilizar))
+    
   def test_el_método_cargar_a_tope_no_está_definido_en_la_clase_Celular(self):
     celular = Celular(1)
-    self.assertTrue("cargar_a_tope" in dir(celular) and callable(celular.cargar_a_tope))
+    self.assertFalse("cargar_a_tope" in dir(celular) and callable(celular.cargar_a_tope))
