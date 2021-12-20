@@ -58,4 +58,8 @@
     zombi = SuperZombi(10)
     zombi.regenerarse()
     self.assertEqual(zombi.salud,100)
+    
+    def test_la_clase_SuperZombi_tiene_definido_el_método_sabe_correr(self):
+    superzombi = SuperZombi(44)
+    self.assertTrue("sabe_correr" in dir(superzombi) and callable(superzombi.sabe_correr))
   
