@@ -1,9 +1,7 @@
 class Celular:
   
-  def __init__(self, bateria, saldo, sistema_operativo):
+  def __init__(self, bateria):
     self.bateria = bateria
-    self.saldo = saldo
-    self.sistema_operativo = sistema_operativo
 
   def tiene_bateria(self):
     return self.bateria > 20
@@ -11,8 +9,3 @@ class Celular:
   def tiene_bateria_maxima(self):
     return self.bateria == 100
 
-  def necesita_saldo(self):
-    return self.saldo == 0
-    
-  def cargar_saldo(self, saldo):
-    return self.saldo += saldo
