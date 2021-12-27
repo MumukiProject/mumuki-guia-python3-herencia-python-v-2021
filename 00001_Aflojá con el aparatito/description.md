@@ -1,8 +1,11 @@
-¿Te acordás de la clase `Celular`? :iphone: Volvió.. ¡Y vamos a agregarle comportamiento! 
+¿Te acordas de los dispositivos electronicos? ¡Volvieron en forma de herencia! :grimacing:.
 
-Además de lo que sabemos queremos que:
+En esta oportunidad vamos a modelar `Tablet`s , de las cuales sabemos:
 
-* cuando utilicemos un `Celular`, su batería disminuya en la mitad de los minutos que lo hagamos. Por ejemplo: si usamos el celular 30 minutos, su batería bajará en 15;
-* los celulares se puedan `cargar_a_tope` para dejar la batería en 100. 
+* tienen una bateria, que se puede indicar inicialmente;
+* entienden el mensaje `tiene_bateria` que indica si su batería es mayor a 20;
+* cuando utilizamos una `Tablet`, su batería disminuye en la mitad de los minutos que lo hagamos. Por ejemplo: si usamos la tablet 30 minutos, su batería bajará en 15;
+* las `Tablet`s se pueden `cargar_a_tope` para dejar la batería en 100. 
+* Y entienden el mensaje `tiene_bateria_maxima` que indica si la misma está exactamente al 100%.
 
-> Veamos si se entiende: definí los métodos `utilizar` y `cargar_a_tope` en la clase `Celular`.
+> Veamos si se entiende: Definí en la clase `Tablet` que sepa entender los mensajes `__init__`, `utilizar`, `tiene_bateria`,  `tiene_bateria_maxima` y `cargar_a_tope`.

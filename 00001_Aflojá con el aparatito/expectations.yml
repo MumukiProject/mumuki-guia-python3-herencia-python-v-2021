@@ -2,16 +2,16 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:Celular
+  inspection: Declares:Tablet
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Celular
+  binding: Tablet
   inspection: DeclaresComputation:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Celular
+  binding: Tablet
   inspection: DeclaresComputation:utilizar
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Celular
+  binding: Tablet
   inspection: DeclaresComputation:cargar_a_tope
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Celular
+  binding: Tablet
   inspection: DeclaresComputationWithArity2:utilizar
