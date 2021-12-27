@@ -13,13 +13,13 @@ expectations:
   binding: Dispositivo
   inspection: DeclaresComputation:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Celular
+  binding: Tablet
   inspection: Not:DeclaresComputation:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Celular
+  binding: Tablet
   inspection: Not:DeclaresComputation:cargar_a_tope
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Celular
+  binding: Tablet
   inspection: Not:DeclaresComputation:tiene_bateria_maxima
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Notebook

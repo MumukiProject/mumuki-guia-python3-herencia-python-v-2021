@@ -16,10 +16,10 @@ choices:
   value: "`Dispositivo` es una clase abstracta."
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`Celular` es una clase concreta."
+  value: "`Tablet` es una clase concreta."
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`Celular` es una clase abstracta."
+  value: "`Tablet` es una clase abstracta."
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`Notebook` es una clase concreta."
@@ -28,10 +28,10 @@ choices:
   value: "`Notebook` es una clase abstracta."
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`Celular` hereda de Dispositivo."
+  value: "`Tablet` hereda de Dispositivo."
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`Dispositivo` hereda de Celular."
+  value: "`Dispositivo` hereda de Tablet."
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`Notebook` hereda de Dispositivo."
