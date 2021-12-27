@@ -7,5 +7,5 @@ expectations:
   binding: Notebook
   inspection: Not:DeclaresComputation:esta_descargado
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Celular
+  binding: Tablet
   inspection: Not:DeclaresComputation:esta_descargado
