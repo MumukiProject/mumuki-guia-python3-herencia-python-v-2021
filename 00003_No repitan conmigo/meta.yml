@@ -22,6 +22,6 @@ choices:
   value: "`tiene_bateria_maxima`"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`cargar_saldo`"
-  checked: false
+  value: "`tiene_bateria`"
+  checked: true
 name: No repitan conmigo
