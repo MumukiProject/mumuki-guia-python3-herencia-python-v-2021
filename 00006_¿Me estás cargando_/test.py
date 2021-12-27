@@ -14,8 +14,7 @@
     self.assertTrue(notebook.esta_descargado())
 
   def test_Una_notebook_no_está_descargada_cuando_tiene_más_de_20_de_batería(self):
-    notebook = Notebook(100)
-    notebook.utilizar(79)
+    notebook = Notebook(21)
     self.assertFalse(notebook.esta_descargado())
   
   def test_Una_tablet_está_descargada_cuando_tiene_menos_de_20_de_batería(self):
@@ -29,7 +28,6 @@
     self.assertTrue(tablet.esta_descargado())
     
   def test_Una_tablet_no_está_descargada_cuando_tiene_más_de_20_de_batería(self):
-    tablet = Tablet(100)
-    tablet.utilizar(158)
+    tablet = Tablet(21)
     self.assertFalse(tablet.esta_descargado())
     
