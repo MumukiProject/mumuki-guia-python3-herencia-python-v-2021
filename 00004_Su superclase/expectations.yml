@@ -1,7 +1,7 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Celular
+  binding: Tablet
   inspection: Inherits:Dispositivo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Notebook
