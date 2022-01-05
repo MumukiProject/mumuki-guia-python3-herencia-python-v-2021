@@ -10,5 +10,5 @@ manual_evaluation: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
-  value: una_notebook.esta_descargado()
+  value: una_notebook.sin_carga()
 name: Prueba sorpresa
