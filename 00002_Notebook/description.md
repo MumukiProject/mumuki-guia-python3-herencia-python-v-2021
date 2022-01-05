@@ -1,4 +1,4 @@
-¡Ahora es el turno de la `Notebook`! :computer:
+¡Ahora es el turno de las `Notebook`s! :computer:
 
 La clase `Notebook` entiende algunos de los mensajes que entiende `Tablet` y se comporta parecido pero no exactamente igual. La diferencia está en que a la hora de `utilizar` una notebook, su `bateria` disminuye en la cantidad de minutos que la utilicemos.
 
