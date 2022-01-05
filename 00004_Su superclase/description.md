@@ -1,4 +1,4 @@
-Una forma de organizar las clases cuando programamos en objetos es definir una **jerarquía**. En nuestro caso podemos pensar que `Tablet` y `Notebook` se pueden englobar en algo más grande y que las incluye, la idea de `Dispositivo`. :iphone::computer:
+Una forma de organizar las clases cuando programamos en objetos es establecer una **jerarquía**. En nuestro caso podemos pensar que `Tablet` y `Notebook` se pueden englobar en algo más grande y que las incluye, la idea de `Dispositivo`. :iphone::computer:
 
 Muchas veces esa jerarquía se puede visualizar en el mundo real: por ejemplo, `Perro` y `Gato` entran en la categoría `Mamifero`, mientras que `Cóndor` y `Halcón` se pueden clasificar como `Ave`. Cuando programemos, la jerarquía que utilicemos dependerá de nuestro modelo y de las abstracciones que utilicemos.
 
