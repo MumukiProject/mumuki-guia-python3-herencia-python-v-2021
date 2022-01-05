@@ -13,10 +13,6 @@
     zombi.recibir_danio(5)
     self.assertEqual(zombi.hambre, 90)
     
-  def test_Si_un_Zombi_recibe_mucho_danio_su_hambre_es_0(self):
-    zombi = Zombi(10)
-    zombi.recibir_danio(50)
-    self.assertEqual(zombi.salud,0)
     
   def test_Si_creo_un_nuevo_SuperZombi_le_puedo_especificar_su_hambre_inicial(self):
     superZombi = SuperZombi(44)
