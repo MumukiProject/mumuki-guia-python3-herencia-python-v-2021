@@ -4,14 +4,11 @@ expectations:
   binding: SuperZombi
   inspection: Inherits:Zombi
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: SuperZombi
-  inspection: Not:DeclaresComputation:gritar
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: SuperZombi
-  inspection: Not:DeclaresComputation:sin_vida
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
   inspection: Not:DeclaresComputation:regenerarse
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
   inspection: Not:DeclaresComputation:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: SuperZombi
+  inspection: Not:DeclaresComputation:sabe_correr
