@@ -14,17 +14,17 @@
     self.assertEqual(zombi.hambre, 90)
     
     
-  def test_Si_creo_un_nuevo_SuperZombi_le_puedo_especificar_su_hambre_inicial(self):
+  def test_Si_creo_un_nuevo_super_zombi_le_puedo_especificar_su_hambre_inicial(self):
     superZombi = SuperZombi(44)
     self.assertEqual(superZombi.hambre,44)
     
 
-  def test_Si_un_SuperZombi_de_salud_100_recibe_20_puntos_de_daño_disminuye_su_hambre_en_20(self):
+  def test_Si_un_super_zombi_de_salud_100_recibe_20_puntos_de_daño_disminuye_su_hambre_en_20(self):
     zombi = SuperZombi(100)
     zombi.recibir_danio(20)
     self.assertEqual(zombi.hambre, 80)
 
-  def test_Si_un_SuperZombi_se_regenera_su_hambre_vuelve_a_100(self):
+  def test_Si_un_super_zombi_se_regenera_su_hambre_vuelve_a_100(self):
     zombi = SuperZombi(10)
     zombi.regenerarse()
     self.assertEqual(zombi.hambre,100)
