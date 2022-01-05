@@ -74,5 +74,3 @@
   def test_la_clase_MedioDeTransporte_define_el_método_entran_personas(self):
     medioDeTransporte = MedioDeTransporte(100)
     self.assertTrue("entran_personas" in dir(medioDeTransporte) and callable(medioDeTransporte.entran_personas))
-    
-    
