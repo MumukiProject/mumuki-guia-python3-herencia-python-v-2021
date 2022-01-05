@@ -3,17 +3,10 @@
     zombi = Zombi(44)
     self.assertEqual(zombi.salud,44)
     
-  def test_Un_Zombi_no_sabe_correr(self):
+  def test_Un_Zombi_sabe_correr(self):
     zombi = Zombi(44)
-    self.assertFalse(zombi.sabe_correr())
+    self.assertTrue(zombi.sabe_correr())
     
-  def test_Un_Zombi_sabe_gritar(self):
-    zombi = Zombi(44)
-    self.assertEqual(zombi.gritar(),'¡agrrrg!')
-    
-  def test_Un_Zombi_con_vida_100_no_está_sin_vida(self):
-    zombi = Zombi(100)
-    self.assertFalse(zombi.sin_vida())
     
   def test_Si_un_Zombi_de_salud_100_recibe_5_puntos_de_daño_disminuye_su_salud_en_10_puntos_y_no_está_sin_vida(self):
     zombi = Zombi(100)
