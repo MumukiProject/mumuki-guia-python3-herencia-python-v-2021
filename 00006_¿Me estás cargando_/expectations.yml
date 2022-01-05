@@ -1,7 +1,7 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: esta_descargado
+  binding: sin_carga
   inspection: Uses:tiene_bateria
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Notebook
