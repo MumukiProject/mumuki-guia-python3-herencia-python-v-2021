@@ -36,9 +36,9 @@
     gaiman = SuperZombi(0)
     self.assertTrue(gaiman.es_un_peligro())
     
-  def test_la_clase_SuperZombi_tiene_definido_el_método_sabe_correr(self):
+  def test_Un_super_zombi_sabe_correr(self):
     superzombi = SuperZombi(44)
-    self.assertTrue("sabe_correr" in dir(superzombi) and callable(superzombi.sabe_correr))
+    self.assertTrue(superzombi.sabe_correr())
     
   def test_Un_Zombi_es_un_peligro_si_tiene_más_de_50_de_hambre(self):
     gaiman = Zombi(51)
