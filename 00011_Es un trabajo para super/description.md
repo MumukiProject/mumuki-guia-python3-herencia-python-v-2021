@@ -12,7 +12,6 @@ class Saludo:
 class SaludoDocente(Saludo):
   def saludar(self):
     return super().saludar() + " estudiantes"
-
 ```
 
 De esta forma, al enviar el mensaje `saludar` a `SaludoDocente`, `super` **invoca** el método `saludar` de su superclase, `Saludo`. :wave: 
@@ -22,5 +21,7 @@ De esta forma, al enviar el mensaje `saludar` a `SaludoDocente`, `super` **invoc
 ム mi_saludo.saludar()
 "Buen día estudiantes"
 ```
+
+Como podemos ver, `super` en cierto modo modifica como se comporta el method lookup.
 
 > ¡Ahora te toca a vos! Redefiní el método `cargar_combustible` en `Colectivo`, de modo que haga lo mismo que cualquier `MedioDeTransporte` y además se quede sin pasajeros. Recordá utilizar `super` para evitar repetir lógica.

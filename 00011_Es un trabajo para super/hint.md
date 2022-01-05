@@ -9,5 +9,4 @@ class PerroCascarrabias(Perro):
   def cruzarse_con_otro_perro(self):
     super().cruzarse_con_otro_perro()
     self.ladrar()
-
 ```
