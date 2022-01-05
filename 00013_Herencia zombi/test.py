@@ -18,9 +18,6 @@
     superZombi = SuperZombi(44)
     self.assertEqual(superZombi.hambre,44)
     
-  def test_Un_SuperZombi_sabe_correr(self):
-    superZombi = SuperZombi(44)
-    self.assertTrue(superZombi.sabe_correr())
 
   def test_Si_un_SuperZombi_de_salud_100_recibe_20_puntos_de_daño_disminuye_su_hambre_en_20(self):
     zombi = SuperZombi(100)
