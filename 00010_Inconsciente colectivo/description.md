@@ -1,8 +1,8 @@
 No hay 2 sin 3, tampoco hay 20 sin 21, o 30...
 
-La verdad es que la cantidad de gente que puede entrar en un `Colectivo` es variable, y para simplificar las cosas vamos a decir que en un colectivo siempre entran personas.
+La verdad es que la cantidad de gente que puede entrar en un `Colectivo` es variable, y para simplificar las cosas vamos a decir que en un colectivo siempre entran personas. :bus:
 
-Pero... ¿entonces no es un `MedioDeTransporte`?
+Pero... ¿entonces no es un `MedioDeTransporte`? :thinking:
 
 Sí, en realidad es un `MedioDeTransporte`, solo que responde distinto a `entran_personas`. Lo que podemos hacer es redefinir el método: si `Colectivo` define el método `entran_personas` va a evaluar ese código en lugar del de su superclase.
 
