@@ -5,7 +5,7 @@ expectations:
   inspection: Uses:tiene_bateria
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Notebook
-  inspection: Not:DeclaresComputation:esta_descargado
+  inspection: Not:DeclaresComputation:sin_carga
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Tablet
-  inspection: Not:DeclaresComputation:esta_descargado
+  inspection: Not:DeclaresComputation:sin_carga
