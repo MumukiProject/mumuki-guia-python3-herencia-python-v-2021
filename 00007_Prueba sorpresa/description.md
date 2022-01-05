@@ -5,10 +5,10 @@ Ya hablamos mucho de las ventajas de la herencia para evitar la repetición de l
 > Probá en la consola los siguientes comandos:
 >
 ``` python
-ム una_tablet.esta_descargado()
+ム una_tablet.sin_carga()
 ム una_tablet.utilizar(180)
-ム una_tablet.esta_descargado()
+ム una_tablet.sin_carga()
 ム una_notebook.utilizar(100)
 ム una_notebook.cargar_a_tope()
-ム una_notebook.esta_descargado()
+ム una_notebook.sin_carga()
 ```
