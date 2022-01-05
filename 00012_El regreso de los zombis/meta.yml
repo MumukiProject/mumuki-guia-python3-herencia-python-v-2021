@@ -10,13 +10,10 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`Zombi` debe definir el método `gritar`"
+  value: "`Zombi` debe definir el método `es_un_peligro`"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`Zombi` debe definir el método `salud`"
-  checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`Zombi` debe definir el método `sin_vida`"
+  value: "`Zombi` debe definir el método `__init__`"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`Zombi` debe definir el método `sabe_correr`"
@@ -28,13 +25,10 @@ choices:
   value: "`Zombi` debe definir el método `regenerarse`"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`SuperZombi` debe definir el método `gritar`"
-  checked: false
+  value: "`SuperZombi` debe definir el método `es_un_peligro`"
+  checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`SuperZombi` debe definir el método `salud`"
-  checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`SuperZombi` debe definir el método `sin_vida`"
+  value: "`SuperZombi` debe definir el método `__init__`"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`SuperZombi` debe definir el método `recibir_danio`"
