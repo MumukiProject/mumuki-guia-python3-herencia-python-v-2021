@@ -20,7 +20,6 @@ class Halcon(Ave):
 
   def dormir(self,minutos):
    self.energia += minutos
-
 ```
 
 Cuando escribimos entre paréntesis el nombre de la súper clase significa "hereda de": por ejemplo, `Condor` hereda de `Ave`, que está _más arriba_ en la jerarquía. Otra manera de decirlo es que cada `Condor` es un `Ave`.
