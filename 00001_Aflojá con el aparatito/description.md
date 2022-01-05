@@ -8,4 +8,4 @@ En esta oportunidad vamos a modelar `Tablet`s , de las cuales sabemos:
 * se pueden `cargar_a_tope` para dejar la batería en 100. 
 * entienden el mensaje `tiene_bateria_maxima` que indica si la misma está exactamente al 100%.
 
-> Veamos si se entiende: Definí en la clase `Tablet` con su contructor, y sus métodos `utilizar`, `tiene_bateria`,  `tiene_bateria_maxima` y `cargar_a_tope`.
+> Veamos si se entiende: Definí la clase `Tablet` con su contructor, y sus métodos `utilizar`, `tiene_bateria`,  `tiene_bateria_maxima` y `cargar_a_tope`.
