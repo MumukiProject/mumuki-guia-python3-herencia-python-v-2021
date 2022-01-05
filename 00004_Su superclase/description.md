@@ -23,7 +23,7 @@ class Halcon(Ave):
 
 ```
 
-Cuando escribimos entre paréntesis el nombre de la súper clase significa "hereda de": por ejemplo, `Condor` hereda de `Ave`, que está _más arriba_ en la jerarquía. Otra manera de decirlo es que cada `Condor` es una `Ave`.
+Cuando escribimos entre paréntesis el nombre de la súper clase significa "hereda de": por ejemplo, `Condor` hereda de `Ave`, que está _más arriba_ en la jerarquía. Otra manera de decirlo es que cada `Condor` es un `Ave`.
 
 La herencia nos permite que las *subclases*  (`Condor` y `Halcon`) posean los mismos métodos y atributos que la *superclase* `Ave`. Es decir, las instancias de `Condor` y de `Halcon` van a saber `volar` de la misma forma, pero cuando les enviemos el mensaje `dormir` cada una hará algo diferente.
 
