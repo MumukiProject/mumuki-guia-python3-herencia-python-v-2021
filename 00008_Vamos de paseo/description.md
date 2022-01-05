@@ -1,8 +1,8 @@
 Desconectémonos un poco y salgamos de paseo. ¿En qué vamos? :thinking:
 
-Por ahora nuestras opciones son limitadas. Podemos elegir ir en `Auto` o en `Moto`. De ambos medios sabemos que: 
+Por ahora nuestras opciones son limitadas. Podemos elegir ir en `Auto` o en `Moto`. De estos medios sabemos que: 
 
-* ambos vehículos comienzan con una cantidad que podemos establecer de `combustible`;
+* ambos comienzan con una cantidad que podemos establecer de `combustible`;
 * los autos pueden llevar 5 personas como máximo y al `recorrer` una distancia consumen medio litro de `combustible` por cada kilómetro recorrido;
 * las motos pueden llevar 2 personas y consumen un litro por kilómetro recorrido;
 * ambos pueden `cargar_combustible` en la cantidad que digamos y al hacerlo suben su cantidad de `combustible`;
