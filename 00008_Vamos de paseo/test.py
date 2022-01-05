@@ -8,6 +8,11 @@
     auto.recorrer(10)
     self.assertEqual(auto.combustible,195)
     
+  def test_un_auto_pierde_20_litros_de_combustible_al_recorrer_40_kilómetros(self):
+    auto = Auto(200)
+    auto.recorrer(40)
+    self.assertEqual(auto.combustible,180)
+  
   def test_un_auto_aumenta_en_20_su_combustible_al_cargarle_20_de_combustible(self):
     auto = Auto(200)
     auto.cargar_combustible(20)
@@ -33,6 +38,11 @@
     moto = Moto(100)
     moto.recorrer(10)
     self.assertEqual(moto.combustible,90)
+    
+  def test_una_moto_pierde_30_litros_de_combustible_al_recorrer_30_kilómetros(self):
+    moto = Moto(100)
+    moto.recorrer(30)
+    self.assertEqual(moto.combustible,70)
     
   def test_una_moto_aumenta_en_50_su_combustible_al_cargarle_50_de_combustible(self):
     moto = Moto(100)
