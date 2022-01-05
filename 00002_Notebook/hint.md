@@ -1,1 +1,1 @@
-En la `</>Biblioteca` podés encontrar el código de `Tablet` para guiarte.
+En la `</> Biblioteca` podés encontrar el código de `Tablet` para guiarte.
