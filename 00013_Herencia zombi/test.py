@@ -31,14 +31,33 @@
     zombi.recibir_danio(20)
     self.assertEqual(zombi.hambre, 80)
 
-    
   def test_Si_un_SuperZombi_se_regenera_su_hambre_vuelve_a_100(self):
     zombi = SuperZombi(10)
     zombi.regenerarse()
     self.assertEqual(zombi.hambre,100)
     
+  def test_Un_super_zombi_siempre_es_un_peligro(self):
+    gaiman = SuperZombi(0)
+    self.assertTrue(gaiman.es_un_peligro())
+    
   def test_la_clase_SuperZombi_tiene_definido_el_método_sabe_correr(self):
     superzombi = SuperZombi(44)
     self.assertTrue("sabe_correr" in dir(superzombi) and callable(superzombi.sabe_correr))
+    
+  def test_Un_Zombi_es_un_peligro_si_tiene_más_de_50_de_hambre(self):
+    gaiman = Zombi(51)
+    self.assertTrue(gaiman.es_un_peligro())
+    
+  def test_Un_Zombi_no_es_un_peligro_si_tiene_50_de_hambre(self):
+    gaiman = Zombi(50)
+    self.assertFalse(gaiman.es_un_peligro())
+    
+  def test_Un_Zombi_no_es_un_peligro_si_tiene_menos_de_50_de_hambre(self):
+    gaiman = Zombi(49)
+    self.assertFalse(gaiman.es_un_peligro())
+ 
+  def test_Un_Zombi_no_sabe_regenerarse(self):
+    caliope = Zombi(0)
+    self.assertFalse("regenerarse" in dir(caliope) and callable(caliope.regenerarse))
     
   
