@@ -1,6 +1,6 @@
-¿Te acordás de los dispositivos electrónicos? ¡Volvieron en forma de herencia! :grimacing:
+¿Te acordás de los dispositivos electrónicos? ¡Volvieron en forma de `Tablet`s! :grimacing:
 
-En esta oportunidad vamos a modelar `Tablet`s , de las cuales sabemos:
+Para ello vamos a modelarlas teniendo en cuenta que:
 
 * tienen una bateria, que se puede indicar inicialmente;
 * entienden el mensaje `tiene_bateria` que indica si su batería es mayor a 20;
