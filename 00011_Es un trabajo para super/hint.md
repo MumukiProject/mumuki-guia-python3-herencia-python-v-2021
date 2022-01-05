@@ -2,12 +2,12 @@ Para que una clase pueda hacer lo mismo que superclase y algo más, usaremos `su
 
 ```python
 class Perro:
-  def recibir_duenio(self):
+  def cruzarse_con_otro_perro(self):
     self.mover_la_cola()
 
 class PerroCascarrabias(Perro):
-  def recibir_duenio(self):
-    super().recibir_duenio()
+  def cruzarse_con_otro_perro(self):
+    super().cruzarse_con_otro_perro()
     self.ladrar()
 
 ```
