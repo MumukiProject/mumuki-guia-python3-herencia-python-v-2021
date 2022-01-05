@@ -1,4 +1,4 @@
-¿Te acordás de los dispositivos electrónicos? ¡Volvieron en forma de herencia! :grimacing:.
+¿Te acordás de los dispositivos electrónicos? ¡Volvieron en forma de herencia! :grimacing:
 
 En esta oportunidad vamos a modelar `Tablet`s , de las cuales sabemos:
 
