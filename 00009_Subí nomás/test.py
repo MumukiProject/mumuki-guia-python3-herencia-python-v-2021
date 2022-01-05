@@ -8,6 +8,11 @@
     colectivo.recorrer(10)
     self.assertEqual(colectivo.combustible,280)
     
+  def test_un_colectivo_pierde_40_litros_de_combustible_al_recorrer_20_kilómetros(self):
+    colectivo = Colectivo(300)
+    colectivo.recorrer(20)
+    self.assertEqual(colectivo.combustible,260)
+    
   def test_un_colectivo_aumenta_en_20_su_combustible_al_cargarle_20_de_combustible(self):
     colectivo = Colectivo(300)
     colectivo.cargar_combustible(20)
