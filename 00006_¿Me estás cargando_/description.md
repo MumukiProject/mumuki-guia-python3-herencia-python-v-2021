@@ -1,5 +1,4 @@
-Una de las grandes molestias que nos traen los dispositivos electrónicos es cuando se quedan sin batería. :battery:
+Una de las grandes molestias que nos traen los dispositivos electrónicos es cuando se quedan sin carga, es decir sin batería. :battery:
 
-Sabemos que tanto las tablets como las notebooks están descargados cuando no tienen batería. :electric_plug:
 
-> Definí el método `esta_descargado` en donde corresponda.
+> Definí el método `sin_carga` en donde corresponda.

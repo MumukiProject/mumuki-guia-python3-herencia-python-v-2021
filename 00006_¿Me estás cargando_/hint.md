@@ -1,1 +1,1 @@
-Si sabemos que tanto notebooks como tablets responden de la misma manera al mensaje `esta_descargado`, ¿vamos a repetir ese método en ambas clases? :face_with_hand_over_mouth:
+Si sabemos que tanto notebooks como tablets responden de la misma manera al mensaje `sin_carga`, ¿vamos a repetir ese método en ambas clases? :face_with_hand_over_mouth:
