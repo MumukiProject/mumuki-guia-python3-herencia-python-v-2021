@@ -35,7 +35,7 @@ choices:
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`SuperZombi` debe definir el método `sabe_correr`"
-  checked: true
+  checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`SuperZombi` debe definir el método `regenerarse`"
   checked: true
