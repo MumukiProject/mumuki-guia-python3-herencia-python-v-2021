@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:Tablet
+  inspection: DeclaresClass:Tablet
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Tablet
   inspection: DeclaresComputation:__init__
