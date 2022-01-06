@@ -33,3 +33,24 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
   inspection: DeclaresComputation:regenerarse
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Zombi
+  inspection: DeclaresComputationWithArity2:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Zombi
+  inspection: DeclaresComputationWithArity1:sabe_correr
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Zombi
+  inspection: DeclaresComputationWithArity1:es_un_peligro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Zombi
+  inspection: DeclaresComputationWithArity2:recibir_danio
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: SuperZombi
+  inspection: DeclaresComputationWithArity1:es_un_peligro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: SuperZombi
+  inspection: DeclaresComputationWithArity2:recibir_danio
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: SuperZombi
+  inspection: DeclaresComputationWithArity1:regenerarse
