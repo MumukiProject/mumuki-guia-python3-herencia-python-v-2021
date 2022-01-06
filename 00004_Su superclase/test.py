@@ -108,9 +108,7 @@
     dispositivo = Dispositivo(1)
     self.assertFalse("utilizar" in dir(dispositivo) and callable(dispositivo.utilizar))
     
-  def test_el_método_cargar_a_tope_no_está_definido_en_la_clase_Notebook(self):
-    notebook = Notebook(1)
-    self.assertFalse("cargar_a_tope" in dir(notebook) and callable(notebook.cargar_a_tope))
+
     
   
     
