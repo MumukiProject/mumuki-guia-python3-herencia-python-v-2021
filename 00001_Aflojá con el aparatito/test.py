@@ -1,3 +1,6 @@
+  def test_Si_creo_una_nueva_Tablet_le_puedo_especificar_su_bateria_inicial(self):
+    tablet = Tablet(100)
+    self.assertEqual(tablet.bateria,100)
 
   def test_Una_Tablet_gasta_30_de_bateria_si_la_uso_una_hora(self):
     tablet = Tablet(100)
