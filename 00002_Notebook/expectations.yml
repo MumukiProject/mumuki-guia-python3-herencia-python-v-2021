@@ -17,7 +17,19 @@ expectations:
   inspection: DeclaresComputation:cargar_a_tope
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Notebook
+  inspection: DeclaresComputation:tiene_bateria
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Notebook
+  inspection: DeclaresComputationWithArity2:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Notebook
   inspection: DeclaresComputationWithArity2:utilizar
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Notebook
-  inspection: DeclaresComputation:tiene_bateria
+  inspection: DeclaresComputationWithArity1:tiene_bateria_maxima
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Notebook
+  inspection: DeclaresComputationWithArity1:cargar_a_tope
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Notebook
+  inspection: DeclaresComputationWithArity1:tiene_bateria
