@@ -4,8 +4,11 @@ expectations:
   binding: sin_carga
   inspection: Uses:tiene_bateria
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Notebook
-  inspection: Not:DeclaresComputation:sin_carga
+  binding: Dispositivo
+  inspection: DeclaresComputation:sin_carga
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Tablet
+  inspection: Not:DeclaresComputation:sin_carga
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Notebook
   inspection: Not:DeclaresComputation:sin_carga
