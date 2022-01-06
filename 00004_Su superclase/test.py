@@ -111,8 +111,3 @@
   def test_el_método_utilizar_no_está_definido_en_la_clase_Dispositivo(self):
     dispositivo = Dispositivo(1)
     self.assertFalse("utilizar" in dir(dispositivo) and callable(dispositivo.utilizar))
-    
-
-    
-  
-    
