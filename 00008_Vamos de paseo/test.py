@@ -1,4 +1,12 @@
 
+  def test_Si_creo_una_intancia_de_Moto_le_puedo_especificar_su_combustible_inicial(self):
+    moto = Moto(48)
+    self.assertEqual(moto.combustible,48)
+    
+  def test_Si_creo_una_intancia_de_Auto_le_puedo_especificar_su_combustible_inicial(self):
+    auto = Auto(24)
+    self.assertEqual(auto.combustible,24)
+    
   def test_un_auto_puede_llevar_5_personas_máximo(self):
     auto = Auto(200)
     self.assertEqual(auto.maximo_personas(),5)
