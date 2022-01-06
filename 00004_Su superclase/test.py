@@ -96,10 +96,6 @@
     dispositivo = Dispositivo(1)
     self.assertTrue("tiene_bateria_maxima" in dir(dispositivo) and callable(dispositivo.tiene_bateria_maxima))
     
-  def test_el_método_cargar_a_tope_está_definido_en_la_clase_Dispositivo(self):
-    dispositivo = Dispositivo(1)
-    self.assertTrue("cargar_a_tope" in dir(dispositivo) and callable(dispositivo.cargar_a_tope))
-    
   def test_el_método_utilizar_está_definido_en_la_clase_Tablet(self):
     tablet = Tablet(1)
     self.assertTrue("utilizar" in dir(tablet) and callable(tablet.utilizar))
@@ -107,4 +103,14 @@
   def test_el_método_utilizar_está_definido_en_la_clase_Notebook(self):
     notebook = Notebook(1)
     self.assertTrue("utilizar" in dir(notebook) and callable(notebook.utilizar))
+    
+  def test_el_método_utilizar_no_está_definido_en_la_clase_Dispositivo(self):
+    dispositivo = Dispositivo(1)
+    self.assertFalse("utilizar" in dir(dispositivo) and callable(dispositivo.utilizar))
+    
+  def test_el_método_cargar_a_tope_no_está_definido_en_la_clase_Notebook(self):
+    notebook = Notebook(1)
+    self.assertFalse("cargar_a_tope" in dir(notebook) and callable(notebook.cargar_a_tope))
+    
+  
     
