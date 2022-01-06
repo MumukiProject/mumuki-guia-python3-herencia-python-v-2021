@@ -20,34 +20,43 @@ expectations:
   inspection: DeclaresComputation:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: MedioDeTransporte
-  inspection: Not:DeclaresComputation:recorrer
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Auto
-  inspection: Not:DeclaresComputation:__init__
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Auto
-  inspection: Not:DeclaresComputation:cargar_combustible
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Auto
-  inspection: Not:DeclaresComputation:entran_personas
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Moto
-  inspection: Not:DeclaresComputation:__init__
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Moto
-  inspection: Not:DeclaresComputation:cargar_combustible
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Moto
-  inspection: Not:DeclaresComputation:entran_personas
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: entran_personas
-  inspection: Not:Assigns
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: entran_personas
-  inspection: Not:UsesIf
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: maximo_personas
-  inspection: Not:Assigns
+  inspection: DeclaresComputation:entran_personas
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: MedioDeTransporte
-  inspection: DeclaresComputationWithArity2:entran_personas
+  inspection: DeclaresComputation:cargar_combustible
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: MedioDeTransporte
+  inspection: Not:DeclaresComputation:maximo_personas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: MedioDeTransporte
+  inspection: Not:DeclaresComputation:recorrer
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Moto
+  inspection: Not:DeclaresComputation:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Moto
+  inspection: Not:DeclaresComputation:entran_personas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Moto
+  inspection: Not:DeclaresComputation:cargar_combustible
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Moto
+  inspection: DeclaresComputation:maximo_personas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Moto
+  inspection: DeclaresComputation:recorrer
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
+  inspection: Not:DeclaresComputation:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
+  inspection: Not:DeclaresComputation:entran_personas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
+  inspection: Not:DeclaresComputation:cargar_combustible
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
+  inspection: DeclaresComputation:maximo_personas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
+  inspection: DeclaresComputation:recorrer
