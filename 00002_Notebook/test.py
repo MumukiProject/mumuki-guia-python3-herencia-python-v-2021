@@ -21,7 +21,7 @@
 
   def test_una_notebook_tiene_bateria_maxima_si_la_tiene_100_de_bateria(self):
     notebook = Notebook(100)
-    self.assertTrue(notebook.tiene_bateria_maxima)
+    self.assertTrue(notebook.tiene_bateria_maxima())
     
   def test_una_notebook_tiene_bateria_maxima_si_la_tiene_menos_de_100_de_bateria(self):
     notebook = Notebook(99)
