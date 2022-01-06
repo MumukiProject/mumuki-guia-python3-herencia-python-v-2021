@@ -1,3 +1,4 @@
+  
   def test_Si_creo_una_nueva_Tablet_le_puedo_especificar_su_bateria_inicial(self):
     tablet = Tablet(100)
     self.assertEqual(tablet.bateria,100)
