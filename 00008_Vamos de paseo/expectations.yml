@@ -26,9 +26,6 @@ expectations:
   inspection: DeclaresComputation:cargar_combustible
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: MedioDeTransporte
-  inspection: Not:DeclaresComputation:maximo_personas
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: MedioDeTransporte
   inspection: Not:DeclaresComputation:recorrer
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Moto
