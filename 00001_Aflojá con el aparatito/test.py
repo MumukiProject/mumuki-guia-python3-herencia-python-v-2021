@@ -21,7 +21,7 @@
     
   def test_Una_tablet_tiene_bateria_maxima_si_tiene_100_de_bateria(self):
     tablet = Tablet(100)
-    self.assertTrue(tablet.tiene_bateria_maxima)
+    self.assertTrue(tablet.tiene_bateria_maxima())
     
   def test_Una_tablet_no_tiene_bateria_maxima_si_tiene_menos_de_100_de_bateria(self):
     tablet = Tablet(99)
