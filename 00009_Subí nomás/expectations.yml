@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:Colectivo
+  inspection: DeclaresClass:Colectivo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
   inspection: Inherits:MedioDeTransporte
@@ -15,3 +15,15 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
   inspection: Not:DeclaresComputation:entran_personas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Colectivo
+  inspection: DeclaresComputation:maximo_personas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Colectivo
+  inspection: DeclaresComputation:recorrer
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Colectivo
+  inspection: DeclaresComputationWithArity1:maximo_personas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Colectivo
+  inspection: DeclaresComputationWithArity2:recorrer
