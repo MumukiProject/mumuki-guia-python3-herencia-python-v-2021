@@ -8,7 +8,7 @@ expectations:
   inspection: Inherits:Dispositivo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:Dispositivo
+  inspection: DeclaresClass:Dispositivo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Dispositivo
   inspection: DeclaresComputation:__init__
