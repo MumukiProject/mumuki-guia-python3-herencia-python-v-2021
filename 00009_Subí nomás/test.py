@@ -1,4 +1,8 @@
-
+  
+  def test_Si_creo_una_intancia_de_Colectivo_le_puedo_especificar_su_combustible_inicial(self):
+    colectivo = Colectivo(48)
+    self.assertEqual(colectivo.combustible,48)
+    
   def test_un_colectivo_puede_llevar_20_personas_máximo(self):
     colectivo = Colectivo(300)
     self.assertEqual(colectivo.maximo_personas(),20)
