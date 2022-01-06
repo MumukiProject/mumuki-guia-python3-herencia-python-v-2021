@@ -57,3 +57,27 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Auto
   inspection: DeclaresComputation:recorrer
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: MedioDeTransporte
+  inspection: DeclaresComputationWithArity2:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: MedioDeTransporte
+  inspection: DeclaresComputationWithArity2:entran_personas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: MedioDeTransporte
+  inspection: DeclaresComputationWithArity2:cargar_combustible
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Moto
+  inspection: DeclaresComputationWithArity1:maximo_personas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Moto
+  inspection: DeclaresComputationWithArity2:recorrer
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
+  inspection: DeclaresComputationWithArity1:maximo_personas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
+  inspection: DeclaresComputationWithArity2:recorrer
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: entran_personas
+  inspection: Not:UsesIf
