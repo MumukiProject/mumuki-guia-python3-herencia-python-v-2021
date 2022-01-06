@@ -96,6 +96,10 @@
     dispositivo = Dispositivo(1)
     self.assertTrue("tiene_bateria_maxima" in dir(dispositivo) and callable(dispositivo.tiene_bateria_maxima))
     
+  def test_el_método_tiene_bateria_está_definido_en_la_clase_Dispositivo(self):
+    dispositivo = Dispositivo(1)
+    self.assertTrue("tiene_bateria" in dir(dispositivo) and callable(dispositivo.tiene_bateria))
+    
   def test_el_método_utilizar_está_definido_en_la_clase_Tablet(self):
     tablet = Tablet(1)
     self.assertTrue("utilizar" in dir(tablet) and callable(tablet.utilizar))
