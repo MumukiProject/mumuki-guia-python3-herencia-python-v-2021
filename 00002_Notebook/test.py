@@ -1,4 +1,8 @@
 
+  def test_Si_creo_una_nueva_Notebook_le_puedo_especificar_su_bateria_inicial(self):
+    notebook = Notebook(50)
+    self.assertEqual(notebook.bateria,50)
+
   def test_una_notebook_gasta_60_de_bateria_si_la_uso_una_hora(self):
     notebook = Notebook(100)
     notebook.utilizar(60)
