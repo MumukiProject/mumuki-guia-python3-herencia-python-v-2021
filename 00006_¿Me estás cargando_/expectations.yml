@@ -5,10 +5,10 @@ expectations:
   inspection: Uses:tiene_bateria
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Dispositivo
-  inspection: DeclaresComputation:sin_carga
+  inspection: DeclaresMethod:sin_carga
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Tablet
-  inspection: Not:DeclaresComputation:sin_carga
+  inspection: Not:DeclaresMethod:sin_carga
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Notebook
-  inspection: Not:DeclaresComputation:sin_carga
+  inspection: Not:DeclaresMethod:sin_carga
