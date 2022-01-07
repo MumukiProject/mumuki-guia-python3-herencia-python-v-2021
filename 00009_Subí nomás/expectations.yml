@@ -8,19 +8,19 @@ expectations:
   inspection: Inherits:MedioDeTransporte
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: Not:DeclaresComputation:__init__
+  inspection: Not:DeclaresMethod:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: Not:DeclaresComputation:cargar_combustible
+  inspection: Not:DeclaresMethod:cargar_combustible
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: Not:DeclaresComputation:entran_personas
+  inspection: Not:DeclaresMethod:entran_personas
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: DeclaresComputation:maximo_personas
+  inspection: DeclaresMethod:maximo_personas
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: DeclaresComputation:recorrer
+  inspection: DeclaresMethod:recorrer
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
   inspection: DeclaresComputationWithArity1:maximo_personas
