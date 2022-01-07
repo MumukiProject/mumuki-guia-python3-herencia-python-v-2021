@@ -17,46 +17,46 @@ expectations:
   inspection: Inherits:MedioDeTransporte
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: MedioDeTransporte
-  inspection: DeclaresComputation:__init__
+  inspection: DeclaresMethod:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: MedioDeTransporte
-  inspection: DeclaresComputation:entran_personas
+  inspection: DeclaresMethod:entran_personas
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: MedioDeTransporte
-  inspection: DeclaresComputation:cargar_combustible
+  inspection: DeclaresMethod:cargar_combustible
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: MedioDeTransporte
-  inspection: Not:DeclaresComputation:recorrer
+  inspection: Not:DeclaresMethod:recorrer
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Moto
-  inspection: Not:DeclaresComputation:__init__
+  inspection: Not:DeclaresMethod:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Moto
-  inspection: Not:DeclaresComputation:entran_personas
+  inspection: Not:DeclaresMethod:entran_personas
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Moto
-  inspection: Not:DeclaresComputation:cargar_combustible
+  inspection: Not:DeclaresMethod:cargar_combustible
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Moto
-  inspection: DeclaresComputation:maximo_personas
+  inspection: DeclaresMethod:maximo_personas
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Moto
-  inspection: DeclaresComputation:recorrer
+  inspection: DeclaresMethod:recorrer
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Auto
-  inspection: Not:DeclaresComputation:__init__
+  inspection: Not:DeclaresMethod:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Auto
-  inspection: Not:DeclaresComputation:entran_personas
+  inspection: Not:DeclaresMethod:entran_personas
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Auto
-  inspection: Not:DeclaresComputation:cargar_combustible
+  inspection: Not:DeclaresMethod:cargar_combustible
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Auto
-  inspection: DeclaresComputation:maximo_personas
+  inspection: DeclaresMethod:maximo_personas
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Auto
-  inspection: DeclaresComputation:recorrer
+  inspection: DeclaresMethod:recorrer
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: MedioDeTransporte
   inspection: DeclaresComputationWithArity2:__init__
