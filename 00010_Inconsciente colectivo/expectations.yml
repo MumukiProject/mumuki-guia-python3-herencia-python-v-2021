@@ -5,10 +5,10 @@ expectations:
   inspection: Inherits:MedioDeTransporte
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: DeclaresComputation:__init__
+  inspection: DeclaresMethod:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: DeclaresComputation:entran_personas
+  inspection: DeclaresMethod:entran_personas
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
   inspection: DeclaresComputationWithArity1:__init__
