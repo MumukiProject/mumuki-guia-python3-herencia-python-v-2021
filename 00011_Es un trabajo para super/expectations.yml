@@ -8,7 +8,7 @@ expectations:
   inspection: SourceContains:super
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: DeclaresComputation:cargar_combustible
+  inspection: DeclaresMethod:cargar_combustible
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
   inspection: DeclaresComputationWithArity2:cargar_combustible
