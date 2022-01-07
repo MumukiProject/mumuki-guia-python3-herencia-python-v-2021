@@ -5,19 +5,19 @@ expectations:
   inspection: DeclaresClass:Tablet
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Tablet
-  inspection: DeclaresComputation:__init__
+  inspection: DeclaresMethod:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Tablet
-  inspection: DeclaresComputation:utilizar
+  inspection: DeclaresMethod:utilizar
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Tablet
-  inspection: DeclaresComputation:cargar_a_tope
+  inspection: DeclaresMethod:cargar_a_tope
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Tablet
-  inspection: DeclaresComputation:tiene_bateria
+  inspection: DeclaresMethod:tiene_bateria
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Tablet
-  inspection: DeclaresComputation:tiene_bateria_maxima
+  inspection: DeclaresMethod:tiene_bateria_maxima
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Tablet
   inspection: DeclaresComputationWithArity2:__init__
