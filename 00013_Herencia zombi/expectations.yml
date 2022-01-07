@@ -5,34 +5,34 @@ expectations:
   inspection: Inherits:Zombi
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
-  inspection: DeclaresComputation:__init__
+  inspection: DeclaresMethod:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
-  inspection: DeclaresComputation:sabe_correr
+  inspection: DeclaresMethod:sabe_correr
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
-  inspection: DeclaresComputation:es_un_peligro
+  inspection: DeclaresMethod:es_un_peligro
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
-  inspection: DeclaresComputation:recibir_danio
+  inspection: DeclaresMethod:recibir_danio
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
-  inspection: Not:DeclaresComputation:regenerarse
+  inspection: Not:DeclaresMethod:regenerarse
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
-  inspection: Not:DeclaresComputation:__init__
+  inspection: Not:DeclaresMethod:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
-  inspection: Not:DeclaresComputation:sabe_correr
+  inspection: Not:DeclaresMethod:sabe_correr
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
-  inspection: DeclaresComputation:es_un_peligro
+  inspection: DeclaresMethod:es_un_peligro
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
-  inspection: DeclaresComputation:recibir_danio
+  inspection: DeclaresMethod:recibir_danio
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
-  inspection: DeclaresComputation:regenerarse
+  inspection: DeclaresMethod:regenerarse
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
   inspection: DeclaresComputationWithArity2:__init__

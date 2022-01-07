@@ -2,7 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
-  inspection: Not:DeclaresComputation:descansar
+  inspection: Not:DeclaresMethod:descansar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Zombi
+  inspection: DeclaresMethod:descansar
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
   inspection: DeclaresComputationWithArity2:descansar
