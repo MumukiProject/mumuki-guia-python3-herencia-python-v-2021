@@ -4,4 +4,4 @@ Esto de la herencia está buenísimo. Porque nos permite heredar el comportamien
 
 ¿Y qué pasa cuando en una subclase no hago lo mismo que en la superclase pero tampoco es taaaan distinto? :thought_balloon:
 
-¡Vamos a verlo!
+¡Vamos a averiguarlo!
