@@ -26,6 +26,6 @@ Cuando escribimos entre paréntesis el nombre de la súper clase significa "here
 
 La herencia nos permite que las *subclases*  (`Condor` y `Halcon`) posean los mismos métodos y atributos que la *superclase* `Ave`. Es decir, las instancias de `Condor` y de `Halcon` van a saber `volar` de la misma forma, pero cuando les enviemos el mensaje `dormir` cada una hará algo diferente.
 
-¡Uf! ¡Eso fue un montón! :fearful: A ver si quedó claro. 
+¡Uf! ¡Eso fue un montón! :fearful: Probemos si quedó claro. 
 
 > Definí la clase `Dispositivo` y modificá las clases que definiste anteriormente para evitar que haya métodos repetidos entre `Tablet` y `Notebook`. Es importante que en el editor definas arriba la superclase y abajo sus subclases.
