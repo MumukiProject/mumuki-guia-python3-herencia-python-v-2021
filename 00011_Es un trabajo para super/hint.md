@@ -1,4 +1,4 @@
-Para que una clase pueda hacer lo mismo que superclase y algo más, usaremos `super` de esta manera:
+Para que una clase pueda hacer lo mismo que su superclase y algo más, usaremos `super` de esta manera:
 
 ```python
 class Perro:
