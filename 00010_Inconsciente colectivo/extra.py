@@ -14,12 +14,6 @@ class MedioDeTransporte:
 		return self.maximo_personas >= personas
 		#@elipsis-for-student>
 
-
-	def maximo_personas(self):
-		#<elipsis-for-student@
-		return self.maximo_personas()
-		#@elipsis-for-student>
-
 class Auto(MedioDeTransporte):
 	def maximo_personas(self):
 		#<elipsis-for-student@
