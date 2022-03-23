@@ -41,7 +41,3 @@ class Moto(MedioDeTransporte):
 		#<elipsis-for-student@
 		self.litros -= kilometros
 		#@elipsis-for-student>
-
-    
-
-
