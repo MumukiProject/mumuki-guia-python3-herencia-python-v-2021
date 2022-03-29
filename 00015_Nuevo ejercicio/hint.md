@@ -1,0 +1,1 @@
+Tené en cuenta que `pasajeros` lo vamos a seguir inicializando en el __init__ de `Colectivo` dado que los otros medios de transporte no tienen ese atributo. :wink: 
