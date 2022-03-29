@@ -1,8 +1,8 @@
-Si prestamos atención a los constructores de `Colectivo` y `MedioDeTransporte` podremos notar que hay cierta lógica repetida. Ambos métodos `__init__` se encargan de establecer un `combustible` inicial. 
+Si prestamos atención a los constructores de `Colectivo` y `MedioDeTransporte` podremos notar que hay cierta lógica repetida dado que ambos métodos `__init__` se encargan de establecer un `combustible` inicial. 
 
 Por suerte, en el ejercicio anterior conocimos a `super`, pero ¿cómo puede ayudarnos a resolver esta repetición? :thinking:
 
-Volvamos a las aves un momento e imaginemos que los halcones siempre tienen una energía inicial igual a 80. Para evitar repetir lógica entre constructores podríamos hacer lo siguiente:
+Volvamos a las aves un momento e imaginemos que los halcones siempre tienen una energía inicial igual a 80. Para evitar repetir lógica entre las clases `Ave` y `Halcon` podríamos hacer lo siguiente:
 
 ```python
 class Ave:
