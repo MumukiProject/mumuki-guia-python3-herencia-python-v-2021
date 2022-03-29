@@ -1,5 +1,5 @@
 ¡Excelente! :tada:
 
-A pesar de que nuestro código mejoró sigue haciendo lo mismo y nuestro diagrama de clases se mantiene igual: 
+A pesar de que nuestro código mejoró, el diagrama de clases sigue siendo el mismo: 
 
 DIAGRAMA DEL EJERCICIO ANTERIOR.
