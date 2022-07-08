@@ -1,6 +1,8 @@
 ¡Genial! :tada:
 
-Para recapitular, cuando dos objetos repiten lógica, creamos una clase con el comportamiento en común. En el caso que dos clases repitan lógica deberíamos crear una nueva clase a la cual llamamos superclase. A esta nueva clase llevaremos los métodos repetidos y haremos que las clases originales hereden de ella. Estas subclases que heredan de la superclase solo contendrán su comportamiento particular. :exploding_head:
+Para recapitular, cuando dos o más **objetos** repiten lógica, creamos una **clase** con el comportamiento en común. Análogamente, en el caso que dos o más **clases** repitan lógica, debemos crear una nueva clase a la que llamaremos **superclase**. Esta llevará los métodos repetidos de las clases originales (**subclases**) y haremos que estas últimas hereden de ella. 
+De esta forma, las subclases que heredan de la superclase sólo tendrán definido su comportamiento particular.
+:exploding_head:
 
 En los diagramas de clases la herencia se representa con una flecha que tiene la línea continua, la punta cerrada y va desde las subclases a la superclase:
 
