@@ -4,7 +4,7 @@ La verdad es que la cantidad de gente que puede entrar en un `Colectivo` es vari
 
 Pero... ¿entonces no es un `MedioDeTransporte`? :thinking:
 
-Sí, en realidad es un `MedioDeTransporte`, solo que responde distinto a `entran_personas`. Lo que podemos hacer es redefinir el método: si `Colectivo` define el método `entran_personas` va a evaluar ese código en lugar del de su superclase.
+Sí, en realidad es un `MedioDeTransporte`, solo que responde distinto a `entran_personas`. Lo que podemos hacer es **redefinir el método**: si `Colectivo` define el método `entran_personas` va a evaluar ese código en lugar del de su superclase.
 
 Ahora que sabemos que se pueden redefinir métodos, aprovechemos y cambiemos un poco más nuestra solución. Los colectivos siempre se inicializan con 100 de `combustible` y con 0 `pasajeros`. 
 
