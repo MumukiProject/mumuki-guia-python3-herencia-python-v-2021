@@ -15,7 +15,7 @@ class SaludoDocente(Saludo):
     return super().saludar() + " estudiantes"
 ```
 
-De esta forma, al enviar el mensaje `saludar` a `SaludoDocente`, `super` **invoca** el método `saludar` de su superclase, `Saludo`. :wave: 
+De esta forma, al enviar el mensaje `saludar` a `SaludoDocente`, `super` **invoca** el método `saludar` de su superclase, `Saludo` y agrega la particularidad de `SaludoDocente` sumando _" estudiantes"_. :wave: 
 
 ```python
 ム mi_saludo = SaludoDocente()
