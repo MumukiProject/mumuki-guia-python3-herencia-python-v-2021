@@ -2,7 +2,8 @@ Bien sabemos que los colectivos también necesitan cargar combustible como cualq
 
 Pero si redefinimos `cargar_combustible` en `Colectivo`, ¿cómo hacemos para no repetir lógica con nuestra superclase `MedioDeTransporte`? ¡Con `super`! :muscle:
 
-Al utilizar `super` en el método de una subclase, **se evalúa el método con el mismo nombre de su superclase**. Por ejemplo:
+Al utilizar `super` en el método de una subclase, **se evalúa el método con el mismo nombre de su superclase y además lo que se está redefiniendo**. Por ejemplo:
+
 
 ```python
 class Saludo:
