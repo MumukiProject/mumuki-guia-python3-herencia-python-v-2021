@@ -5,6 +5,7 @@ _¿Esto quiere decir que los zombis existen?_ :scream:
 ¡No, tranqui! :sweat_smile: Lo que quiere decir es que tiene sentido que existan instancias de la clase `Zombi`. Esto significa que podemos tener tanto objetos `SuperZombi` como `Zombi`.
 
 En este caso, y al igual que con la herencia de dispositivos, las instancias de `SuperZombi` entenderán todos los mensajes que estén definidos en su clase, sumados a todos los que defina `Zombi`.
+Con esto podemos concluir que una subclase puede heredar de una clase abstracta tanto como de una concreta. 
 
 Y como ya aparecieron en muchos ejercicios, tanto los objetos de la clase `Zombi` como los de `SuperZombi` quieren `descansar` :sleeping:. Cuando descansan una cantidad de minutos, su `hambre` se incrementa en esa cantidad. 
 
