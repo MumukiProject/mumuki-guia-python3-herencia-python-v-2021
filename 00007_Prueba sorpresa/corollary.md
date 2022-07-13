@@ -1,0 +1,2 @@
+¡Excelente! Pudimos consultar en la consola todos los comandos.
+Gracias a la herencia, no solo tenemos un código más claro y sin repetición de lógica, sino que podemos seguir enviando mensajes de la misma forma que lo hacíamos anteriormente. :relieved:
