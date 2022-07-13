@@ -1,2 +1,6 @@
 ¡Excelente! Pudimos consultar en la consola todos los comandos.
-Gracias a la herencia, no solo tenemos un código más claro y sin repetición de lógica, sino que los objetos entienden los mensajes que les enviamos de la misma forma. :relieved:
+Gracias a la herencia logramos:
+
+* tener un código más claro;
+* evitar la repetición de lógica;
+* seguir enviando mensajes de la misma forma que lo hacíamos anteriormente. :relieved:
