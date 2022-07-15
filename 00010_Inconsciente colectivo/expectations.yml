@@ -15,3 +15,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
   inspection: DeclaresComputationWithArity2:entran_personas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Colectivo
+  inspection: Not:Declares:maximo_personas
