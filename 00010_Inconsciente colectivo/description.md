@@ -6,6 +6,9 @@ Pero... ¿entonces no es un `MedioDeTransporte`? :thinking:
 
 Sí, en realidad es un `MedioDeTransporte`, solo que responde distinto a `entran_personas`. Lo que podemos hacer es **redefinir el método**: si `Colectivo` define el método `entran_personas` va a evaluar ese código en lugar del de su superclase.
 
-Ahora que sabemos que se pueden redefinir métodos, aprovechemos y cambiemos un poco más nuestra solución. Los colectivos siempre se inicializan con 100 de `combustible` y con 0 `pasajeros`. 
+Ahora que sabemos que se pueden redefinir métodos, aprovechemos y cambiemos un poco más nuestra solución:
 
-> Redefiní los métodos `__init__` y `entran_personas` en la clase `Colectivo`.
+* Los colectivos siempre se inicializan con 100 de `combustible` y con 0 `pasajeros`;
+* ya no necesitamos el método `maximo_personas` porque siempre entran personas.
+
+> Redefiní los métodos `__init__` y `entran_personas` en la clase `Colectivo`, también eliminá el método `maximo_personas` de la misma clase.
