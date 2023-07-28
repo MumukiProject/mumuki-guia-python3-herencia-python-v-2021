@@ -1,5 +1,0 @@
----
-expectations:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: __init__
-  inspection: Uses:super

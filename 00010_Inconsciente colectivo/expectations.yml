@@ -11,7 +11,7 @@ expectations:
   inspection: DeclaresMethod:entran_personas
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: DeclaresComputationWithArity1:__init__
+  inspection: DeclaresComputationWithArity2:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
   inspection: DeclaresComputationWithArity2:entran_personas

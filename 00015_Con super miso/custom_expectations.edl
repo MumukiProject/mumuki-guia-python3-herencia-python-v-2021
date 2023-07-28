@@ -1,0 +1,2 @@
+expectation "`__init__` debe utilizar `super()`":
+  within `__init__` calls `super`;

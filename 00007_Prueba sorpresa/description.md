@@ -1,4 +1,4 @@
-¡Tranqui! no es la clase de prueba que estás pensando. :stuck_out_tongue_winking_eye:
+¡Tranqui! No es la clase de prueba que estás pensando. :stuck_out_tongue_winking_eye:
 
 Ya hablamos mucho de las ventajas de la herencia para evitar la repetición de lógica. Pero, ¿funciona todo esto que estuvimos haciendo? 
 

@@ -1,0 +1,2 @@
+expectation "`cargar_combustible` debe utilizar `super()`":
+  within `cargar_combustible` calls `super`;

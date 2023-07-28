@@ -5,9 +5,6 @@ expectations:
   inspection: Inherits:MedioDeTransporte
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo
-  inspection: SourceContains:super
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Colectivo
   inspection: DeclaresMethod:cargar_combustible
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colectivo

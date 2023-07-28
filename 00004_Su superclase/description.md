@@ -1,6 +1,6 @@
 Una forma de organizar las clases cuando programamos en objetos es establecer una **jerarquía**. En nuestro caso podemos pensar que `Tablet` y `Notebook` se pueden englobar en algo más grande que las incluya, la idea de `Dispositivo`. :iphone::computer:
 
-Muchas veces esa jerarquía se puede visualizar en el mundo real: por ejemplo, `Perro` y `Gato` entran en la categoría `Mamifero`, mientras que `Cóndor` y `Halcón` se pueden clasificar como `Ave`. Cuando programemos, la jerarquía que utilicemos dependerá de nuestro modelo y de las abstracciones que utilicemos. Leé el siguiente código con atención:
+Muchas veces esa jerarquía se puede visualizar en el mundo real: por ejemplo, _Perro_ y _Gato_ entran en la categoría _Mamifero_, mientras que _Cóndor_ y _Halcón_ se pueden clasificar como _Ave_. Cuando programemos, la jerarquía que utilicemos dependerá de nuestro modelo y de las abstracciones que utilicemos. Leé el siguiente código con atención:
 
 ```python
 class Ave:
